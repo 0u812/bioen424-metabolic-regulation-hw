@@ -156,6 +156,6 @@ class ODEExtractor:
         if self.use_ids:
             r += '\n'
             for rx in (self.model.getReaction(i) for i in range(self.model.getNumReactions())):
-                r += rx.getId() + ': ' + rx.getKineticLaw().getFormula() + '\n'
+                r += 'v' + rx.getId() + ': ' + rx.getKineticLaw().getFormula() + '\n'
 
         return r
