@@ -1,6 +1,6 @@
 from __future__ import print_function, division, absolute_import
 
-import tesbml as libsbml
+import libsbml
 
 import os
 
